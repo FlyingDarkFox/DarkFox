@@ -1,0 +1,1 @@
+import{s as i,J as s,R as r}from"./index-wmVoKqK-.js";function u(o){o.forEach(e=>{const t=e.url.slice(9);"type"in e&&e.type==="stream"&&!(sessionStorage.getItem("trashHistory")||"").includes(t)&&!i.streamHistory.includes(t)&&s({id:t,title:e.title,author:e.uploaderName,duration:r(e.duration)})})}export{u as enqueueRelatedStreams};
